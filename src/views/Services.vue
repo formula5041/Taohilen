@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <div class=" w-12/12">
-            <banner :imgSrc="imgSrc"></banner>
+    <div class=" w-12/12">
+        <banner :imgSrc="imgSrc"></banner>
+        <div class="mx-20">
             <h1 class="text-lg bg-gray-900">Services area</h1>
         </div>
     </div>

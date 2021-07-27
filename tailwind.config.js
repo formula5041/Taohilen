@@ -5,6 +5,16 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    variants: {
+      extend: {
+        backgroundImage: ['hover', 'focus'],
+      }
+    },
+    extend: {
+      backgroundImage: theme => ({
+        'the-slogan': "url('/src/assets/img/home/sasimi.jpg')"
+      })
+    },
     screens: {
       sm: '640px',
       md: '768px',

@@ -1,6 +1,5 @@
 <template>
   <the-header class="bg-gray-800"></the-header>
-  <banner></banner>
   <router-view></router-view>
   <div class="mx-20">
     <the-footer></the-footer>
@@ -9,12 +8,10 @@
 
 <script>
 import TheHeader from './components/layout/TheHeader.vue'
-import Banner from './components/layout/Banner.vue'
 import TheFooter from './components/layout/TheFooter.vue'
 export default {
   components: {
     TheHeader,
-    Banner,
     TheFooter
   }
 }
